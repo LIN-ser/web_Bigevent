@@ -10,7 +10,7 @@ $(function(){
             // 1 在退出时删除本地的token值
             localStorage.removeItem('token')
             // 2 退出后返回登陆页面
-            location.href = '/day1/code/login.html'
+            location.href = '/code/login.html'
             
             // 关闭询问框的
             layer.close(index);
